@@ -382,10 +382,15 @@
 		B117984518D6A3A500EE5337 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sonny Kwok (E3K4Z937W9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sonny Kwok (E3K4Z937W9)";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "restaurants/restaurants-Prefix.pch";
 				INFOPLIST_FILE = "restaurants/restaurants-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4B901305-D5B7-4A29-B137-0A7FB198DE17";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B901305-D5B7-4A29-B137-0A7FB198DE17";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,10 +398,14 @@
 		B117984618D6A3A500EE5337 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sonny Kwok (E3K4Z937W9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sonny Kwok (E3K4Z937W9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "restaurants/restaurants-Prefix.pch";
 				INFOPLIST_FILE = "restaurants/restaurants-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4B901305-D5B7-4A29-B137-0A7FB198DE17";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4B901305-D5B7-4A29-B137-0A7FB198DE17";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     NSString *fullUrl = @"http://restaurants.scors.io";
+    // NSString *fullUrl = @"http://www.google.com";
     NSURL *url = [NSURL URLWithString:fullUrl];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];
